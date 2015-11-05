@@ -1,0 +1,47 @@
+nav > ul > li{
+  display: inline;
+  padding: 10px
+}
+
+body{
+  background-color: grey
+}
+
+#nav-bar{
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: 400;
+}
+
+p{
+  margin-top: 100px;
+}
+
+.static{
+  position: static;
+  padding:30px;
+  width: 400px;
+}
+
+.relative{
+  position:  relative;
+  padding: 30px;
+  width: 400px;
+}
+
+.absolute{
+  position: absolute;
+  padding-left: 400px;
+  width: 400px;
+}
+
+#fixed{
+  position: fixed;
+}
+
+p{
+  width: 400px;
+}
